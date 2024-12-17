@@ -50,9 +50,9 @@ print(output)  # Output: ['ab', 'cd', 'gh']
 
 | Input                             | Output            |
 | --------------------------------- | ----------------- |
-| `['a', 'ab', 'abc', 'cd', 'def']` | `['ab', 'cd']`    |
+| `['a', 'ab', 'abc', 'cd', 'def']` | `['ab', 'abc', 'cd', 'def']`    |
 | `['a', 'b', 'c']`                 | `['a', 'b', 'c']` |
-| `['abcd', 'efg', 'hi']`           | `['efg', 'hi']`   |
+| `['abcd', 'efg', 'hi']`           | `['abcd', 'efg', 'hi']`   |
 
 ---
 
